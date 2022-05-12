@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   padding: 0 150px;
-  background-image: url(./assets/медуза\ ги.svg),url(./assets/dotted.png),conic-gradient(from 247.59deg at 100.9% 79%,rgba(5, 0, 255, 0) 0deg,rgba(5, 0, 255, 0) 178.83deg,rgba(5, 0, 255, 0) 360deg),linear-gradient(84.51deg, #000000 -20.33%, #212233 25.99%, #000000 80.63%);
+  background-image: url(/assets/медуза\ ги.svg),url(/assets/dotted.png),conic-gradient(from 247.59deg at 100.9% 79%,rgba(5, 0, 255, 0) 0deg,rgba(5, 0, 255, 0) 178.83deg,rgba(5, 0, 255, 0) 360deg),linear-gradient(84.51deg, #000000 -20.33%, #212233 25.99%, #000000 80.63%);
   background-repeat: no-repeat, repeat, no-repeat;
   background-blend-mode: normal, multiply;
   background-position: center right, center;
