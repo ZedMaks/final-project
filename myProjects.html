@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/myProjects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/M.png" type="image/x-icon">
+    <title>Olichenko</title>
+</head>
+<body>
+        <!-- <header> -->
+            <div class="navbar">
+                <div class="logo">
+                 <a href="./index.html"><img src="./assets/ЛОГО чорна версія.png" alt="logo"></a>
+                </div>
+                <div class="menu" id="btn_menu">
+                    <div class="divline_wrapper">
+                     <div class="divline"></div>
+                     <div class="divline"></div>
+                     <div class="divline"></div>
+                    </div> 
+                    <div class="menuText">
+                        <span>меню</span>
+                    </div> 
+                 </div>
+                <div class="nav_list"> 
+                 <ul class="navbar_list">
+                    <a href="./aboutMe.html"><li>про мене</li></a>
+                    <a href="./myProjects.html"><li>мої роботи</li></a>
+                    <a href="./myContacts.html"><li>мої контакти</li></a>
+                 </ul>
+                </div>
+            </div>
+        <!-- </header> -->
+        <!-- main -->
+         <main>
+            <div class="menu_dropList" id="ul_menu">
+                <ul class="menuList" >
+                    <a href="./aboutMe.html"><li class="menuListItem">про мене</li></a>
+                    <a href="./myProjects.html"><li class="menuListItem">мої роботи</li></a>
+                    <a href="./myContacts.html"><li class="menuListItem">мої контакти</li></a>
+                </ul>
+            </div>
+             <div class="first_container">
+                 <img class="line" src="./assets/Line 2.jpg" alt="line">
+                 <h2>Мої роботи</h2>
+             </div>
+             <div class="second_container">
+                 <div class="first_project">
+                    <a href="https://zedmaks.github.io/about-me" target="_blank"><img src="./assets/минулий сайт.svg" alt="first_project"></a>
+                   <span>минула версія сайту про мене</span>
+                 </div>
+                 <div class="second_project">
+                    <a href="https://zedmaks.github.io/tesla/" target="_blank"><img src="./assets/сайт тесла.svg" alt="second_project"></a>
+                   <span>сайт реклама авто Roadster</span>
+                 </div>
+             </div>
+             <div class="third_container">
+               <div class="attention">  
+                  <p><span class="red">!!!</span>Прошу зауважити, що <br> сайти ще знаходяться в  <br>розробці</p>
+               </div>
+             </div>
+         </main>
+        <!-- main -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            jQuery(document).ready(($)=>{
+    
+    $('#btn_menu').on('click',function(e){
+        $('#ul_menu').toggleClass('active');
+    })
+    
+    
+    })
+        </script>
+</body>
+</html>
