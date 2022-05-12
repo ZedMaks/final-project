@@ -139,7 +139,7 @@
     width: 350px;
     height: 550px;
     border: 2px solid #000;
-    background-image: url(./assets/dotted.png);
+    background-image: url(/assets/dotted.png);
     background-repeat: repeat;
   }
   .myphoto{
